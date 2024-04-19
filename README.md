@@ -11,6 +11,11 @@ Building scalable, resilient, distributed applications.
     Mail (email with template),
     Listerner(rabbitMQ + init process) 
 
+
+Init frontend: go run ./cmd/web
+Init broker service: go run ./cmd/api
+
+
 Monolithic vs Distributed vs Microservices?
 
 Monoliths: One piece of software, one compiled binary, one application where all the logic exists in one place.
