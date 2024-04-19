@@ -15,6 +15,8 @@ Building scalable, resilient, distributed applications.
 Init frontend: go run ./cmd/web
 Init broker service: go run ./cmd/api
 
+run project in docker: docker-compose up -d
+
 
 Monolithic vs Distributed vs Microservices?
 
